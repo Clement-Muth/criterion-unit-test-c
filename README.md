@@ -1,6 +1,22 @@
 # criterion_unit_test_c
 Some example of criterion unit tests
 
+# Summary
+
+- Installation
+- Example
+	- Rules for Makefile
+	- Some example of unit test with criterion
+
+# Installation
+
+Use this [file](https://github.com/Clement-Muth/criterion_unit_test_c/blob/master/install_criterion.sh) to install criterion
+
+```bash
+chmod 777 install_criterion.sh
+./install_criterion.sh
+```
+
 # Example
 
 ## Rules for Makefile
