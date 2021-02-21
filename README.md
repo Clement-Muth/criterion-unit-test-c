@@ -27,13 +27,6 @@ Test(test_output, test_output_string, .init=redirect_all_stdout)
 [Unit test](https://github.com/Clement-Muth/criterion_unit_test_c/blob/master/test_string_compare.c) which test string output of a function
 
 ```c
-/*
-** EPITECH PROJECT, 2021
-** B-PSU-400-STG-4-1-malloc-clement.muth [WSL: Ubuntu]
-** File description:
-** test
-*/
-
 #include <criterion/criterion.h>
 
 Test(test_string_compare, test_string)
