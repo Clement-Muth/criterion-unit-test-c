@@ -3,6 +3,14 @@ Some example of criterion unit tests
 
 # Example
 
+## Rules for Makefile
+
+```Make
+tests_run:
+	gcc $(SRCS) tests/*.c -o unit_tests --coverage -lcriterion -Iincludes/
+	- ./unit_tests
+```
+
 ## Some example of unit test with criterion
 
 [Unit test](https://github.com/Clement-Muth/criterion_unit_test_c/blob/master/test_output.c) which test output of a program
